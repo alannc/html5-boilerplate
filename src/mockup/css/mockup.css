@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+li {
+    border: #DDDDDD 0.5px solid;
+    border-radius: 2px;
+    position: relative;
+    margin: 0 0 5px 0;
+}
+#profileBox {
+    /*border:red 1px solid;*/
+
+    margin-top: 25px;
+}
+#imageBox {
+    border: 1px #DDDDDD solid;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+}
+#imageBox > img {
+    margin: 2px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#priceBox {
+    margin-left: 20px;
+}
+#sinceText {
+    font-weight: bold;
+    font-size: 19px;
+    color: #555555;
+}
+#currentPriceText {
+    font-weight: bold;
+    font-size: 19px;
+    color: #3FCD89;
+}
+#contentBox {
+    /*border:blue 1px solid;*/
+
+    position: relative;
+    float: left;
+}
+#contentBox h2 {
+    font-weight: bold;
+    color: #7d99e6;
+    float: left;
+}
+#medals {
+    float: left;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#medals img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#stars {
+    float: left;
+}
+#reviewsText {
+    float: left;
+}
+#lastMessageText {
+    float: right;
+    margin-right: 10px;
+}
+#cityBox h4 {
+    float: left;
+    margin-top: -10px;
+}
+#messageBox h5 {
+    float: left;
+    color: #888888;
+    margin-top: -10px;
+}
+#title {
+    font-weight: bold;
+}
+#message {
+    margin-top: 10px !important;
+}
+#priceModeBox h5 {
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 320px) and (max-height: 600px) {
+  #profileBox {
+      /*border:red 1px solid;*/
+      /*margin-top: 25px;*/
+  }
+  #imageBox {
+    margin:auto;
+  }
+  #priceBox {
+    display:none;
+  }
+  #contentBox {
+    /*border:1px blue solid;*/
+  }
+}

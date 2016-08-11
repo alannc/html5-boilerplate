@@ -6,7 +6,7 @@ Responsive menor a: with 320px, height: 600px
 Desktop mayor a: with 320px, height: 600px
 
 2 - Crear un archivo test.js y test-js.html
- - Agregar un input y un bonton calcular
+ - Agregar un input y un boton calcular
  - Por js tiene que tener las siguientes funciones:
      sumar (suma el input + 10)
      Multiplicar (el numero del input * 0.45)
